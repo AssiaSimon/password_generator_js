@@ -1,10 +1,10 @@
-______________ Projet: 
+# Projet: 
 
 Développer un programme en Java permettant de générer automatiquement un mot de passe aléatoire à partir d’une longueur choisie par l’utilisateur, d'analyser le niveau de sécurité du mot de passe généré ou saisi, d'identifier ses éventuelles faiblesses et de proposer des améliorations afin de le rendre plus robuste et difficile à compromettre.
 
 
 
-______________ Arborescence du projet: 
+# Arborescence du projet: 
 
 password_generator_js/
 |___ PasswordGen.java
@@ -12,7 +12,7 @@ password_generator_js/
 
 
 
-______________ Fonctionnalités:
+# Fonctionnalités:
 
 Le programme permet de :
 
@@ -25,13 +25,13 @@ Le programme permet de :
 	
 
 
-______________ Fonctionnement du programme: 
+# Fonctionnement du programme: 
 
-___ 1) Côté utilisateur : Affichage dans le terminal ___  
+## 1) Côté utilisateur : Affichage dans le terminal   
 
 L'utilisateur indique la longueur souhaitée du mot de passe au clavier. Le programme vérifie ensuite que cette longueur est d'au moins 8 caractères, puis génère le mot de passe et propose une version dont l'ordre des caractères a été réarrangé.
 
-___ 2) Côté programme — Fonctionnement interne ___ 
+## 2) Côté programme — Fonctionnement interne
 
 Le programme est organisé autour de deux méthodes principales :
 
@@ -42,7 +42,7 @@ Le programme est organisé autour de deux méthodes principales :
 
 
 
-______________  Déroulement général:
+#  Déroulement général:
 
 
 		      Début
@@ -88,7 +88,7 @@ ______________  Déroulement général:
 
 
 
-______________ Classes : 
+# Classes : 
 
 	- PasswordGen est la classe principale du programme qui contient :
 		. main() : point d'entrée du programme ;
