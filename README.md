@@ -6,9 +6,9 @@ Développer un programme en Java permettant de générer automatiquement un mot 
 
 # Arborescence du projet: 
 
-password_generator_js/
-|___ PasswordGen.java
-|___ README.txt
+	password_generator_js/
+	|___ PasswordGen.java
+	|___ README.md
 
 
 
